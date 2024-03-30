@@ -100,7 +100,7 @@ class Exhibition:
         return self.__duration
 
     #Display Exhibition Details
-    def dispalyExhibition(self):
+    def displayExhibition(self):
         print("Exhibition Name:", self.__exhibitName)
         print("Theme:", self.__theme)
         print("Duration:", self.__duration)
