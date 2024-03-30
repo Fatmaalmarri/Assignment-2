@@ -61,7 +61,7 @@ class Artwork:
     def get_exhibitLoc(self):
         return self.__exhibitLoc
 
-    #Dispaly Artwork Details
+    #Display Artwork Details
     def displayArtwork(self):
         print("Title:", self.__title)
         print("Artist:", self.__artist, " - Creation Date:", self.__creationDate)
